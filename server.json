@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fanrj3/panoon-mcp",
+  "title": "PanoOn Street View",
+  "description": "Scan Street View areas into PanoIDs and download imagery through PanoOn.",
+  "repository": {
+    "url": "https://github.com/fanrj3/panoon-mcp",
+    "source": "github"
+  },
+  "version": "0.2.21",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "panoon-mcp",
+      "version": "0.2.21",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "PanoOn local service base URL (default http://127.0.0.1:8787)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "PANOON_SERVICE_URL"
+        }
+      ]
+    }
+  ]
+}

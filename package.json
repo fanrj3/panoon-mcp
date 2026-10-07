@@ -1,5 +1,6 @@
 {
   "name": "panoon-mcp",
+  "mcpName": "io.github.fanrj3/panoon-mcp",
   "version": "0.2.21",
   "description": "MCP server for PanoOn — let AI agents scan Street View areas into PanoIDs and download imagery (opencode, Claude Code, Codex, dsh, ...).",
   "type": "module",
